@@ -56,7 +56,7 @@ button{
 
 a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: .75rem;
 }
 
 .home, .contact, .services, .projects{
@@ -171,4 +171,59 @@ a {
     text-align: center;
     font-size:larger;
     margin-top: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .brother_tiles_logo {
+        margin-left: 20px;
+    }
+
+    .nav_right_container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .home, .contact, .services, .projects {
+        margin-right: 10px;
+        font-size: 0.8rem;
+    }
+
+    .title_section {
+        min-height: 500px;
+    }
+
+    .about_section {
+        min-height: 200px;
+        padding: 20px;
+    }
+
+    .text2 {
+        width: 90%;
+        font-size: medium;
+    }
+
+    .slider {
+        width: 95%;
+    }
+
+    .slide img {
+        max-height: 250px;
+    }
+
+    .arrow_left, .arrow_right {
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .text2 {
+        width: 70%;
+    }
+
+    .slider {
+        width: 90%;
+    }
 }

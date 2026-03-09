@@ -101,3 +101,49 @@ h1{
     width: 95%;
     height: 200px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .brother_tiles_logo {
+        margin-left: 20px;
+    }
+
+    .nav_right_container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .home, .contact, .services, .projects {
+        margin-right: 10px;
+        font-size: 0.8rem;
+    }
+
+    .contact_section {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+    .placeholder {
+        font-size: 15px;
+    }
+
+    .message_box {
+        width: 90%;
+        height: 150px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contact_section {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+}

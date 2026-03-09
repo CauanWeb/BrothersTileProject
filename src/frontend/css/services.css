@@ -82,3 +82,54 @@ p{
 /* .hidden_menu{
     display: none;
 }*/
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .brother_tiles_logo {
+        margin-left: 20px;
+    }
+
+    .nav_right_container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .home, .contact, .services, .projects {
+        margin-right: 10px;
+        font-size: 0.8rem;
+    }
+
+    .pillar_container {
+        margin-left: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #first_pillar, #second_pillar, #third_pillar {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        transform: none;
+        min-height: auto;
+        padding: 20px;
+    }
+
+    #first_pillar.visible, #second_pillar.visible, #third_pillar.visible {
+        transform: none;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .pillar_container {
+        margin-left: 50px;
+        width: 50%;
+    }
+
+    #first_pillar, #second_pillar, #third_pillar {
+        width: 30%;
+    }
+}
