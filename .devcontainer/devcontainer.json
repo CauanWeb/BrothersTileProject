@@ -29,5 +29,5 @@
     "EMAIL_PASS": "${localEnv:EMAIL_PASS}"
   },
 
-  "workspaceFolder": "/workspaces/BrothersTileProject"
+  "workspaceFolder": "/workspaces/Brothers-Tile"
 }
