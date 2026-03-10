@@ -241,7 +241,6 @@ button{
 
     .projects_container {
         gap: 30px;
-        margin-top: 10px;
     }
 
     .first_project_container, .sec_project_container, .third_project_container {
