@@ -194,8 +194,18 @@ button{
 @media (max-width: 768px) {
     .brother_tiles_logo {
         margin-left: 20px;
+        display: none;
     }
 
+    .nav_container{
+        display: flex;
+        position: absolute;
+        top: 0px;
+        margin-left: 6px;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .nav_right_container {
         flex-wrap: wrap;
         justify-content: space-around;
@@ -203,7 +213,7 @@ button{
 
     .home, .contact, .services, .projects {
         margin-right: 10px;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     p {
@@ -241,6 +251,10 @@ button{
 
     .projects_container {
         gap: 30px;
+    }
+
+    .brother_tiles_logo{
+        animation: fadeIn 1s ease-out forwards;
     }
 
     .first_project_container, .sec_project_container, .third_project_container {
