@@ -238,6 +238,10 @@ a {
         width: 70%;
     }
 
+    .brother_tiles_logo{
+        animation: fadeIn 1.5s ease-out;
+    }
+
     .slider {
         width: 90%;
     }
