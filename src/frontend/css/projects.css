@@ -219,6 +219,7 @@ button{
     .first_project_container, .sec_project_container, .third_project_container {
         width: 90%;
         margin: 20px 0;
+        margin-top: 10px;
     }
 
     .slider {
