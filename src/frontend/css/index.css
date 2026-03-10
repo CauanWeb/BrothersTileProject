@@ -187,6 +187,7 @@ a {
     .nav_container{
         position: absolute;
         top: 0px;
+        right: 2px;
         justify-content: center;
         align-items: center;
     }
@@ -208,6 +209,8 @@ a {
     .about_section {
         min-height: 200px;
         padding: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     .text2 {
