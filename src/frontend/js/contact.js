@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const email = document.getElementById("email").value;
         const message = document.getElementById("message").value;
         
-        fetch("https://obscure-halibut-x5579755gxv5fv4jx-5000.app.github.dev/contact", {
+        fetch("https://bug-free-palm-tree-v6wpxjp9vw5hwrxw-5000.app.github.dev/contact", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
