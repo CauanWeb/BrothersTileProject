@@ -21,7 +21,7 @@
   "postCreateCommand": "pip install -r src/backend/requirements.txt",
 
   // Run this every time the container starts
-  "postStartCommand": "cd src/backend/python && python contact.py",
+  "postStartCommand": "python src/backend/python/contact.py",
 
   "remoteEnv": {
     // These will come from your .env file, which you keep out of Git
