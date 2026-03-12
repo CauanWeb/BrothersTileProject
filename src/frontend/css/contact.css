@@ -128,12 +128,12 @@ h1{
     }
 
     .contact_section {
-        width: 95%;
+        width: 100%;
         padding: 10px;
     }
 
     .centeralize{
-
+        margin-top: auto;
         flex-direction: column;
     }
 
