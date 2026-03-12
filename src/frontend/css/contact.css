@@ -132,8 +132,12 @@ h1{
         padding: 10px;
     }
 
+    #lastNamelabel, #phoneNumberlabel, #emaillabel, #messagelabel{
+        margin-top: 10px;
+    }
+
     .centeralize{
-        margin-top: auto;
+        margin-top: 0;
         flex-direction: column;
     }
 
