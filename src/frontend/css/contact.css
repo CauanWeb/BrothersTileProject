@@ -132,6 +132,11 @@ h1{
         padding: 10px;
     }
 
+    .centeralize{
+
+        flex-direction: column;
+    }
+
     h1 {
         font-size: 30px;
         margin-top: 80px;

@@ -1,14 +1,14 @@
 /* CSS for the Brothers Tile Project */
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html, body{
-    overflow-x:hidden;
     animation: fadeIn 1.5s ease-out;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 @keyframes fadeIn {
@@ -89,6 +89,7 @@ a {
 .about_section{
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     min-height: 250px;
     width: 100%;
@@ -96,7 +97,7 @@ a {
     /* border: 1px solid black; */
 }
 
-.projects_section{
+/* .projects_section{
     position: relative;
     display:flex;
     flex-direction: column;
@@ -104,8 +105,8 @@ a {
     justify-content: center;
     min-height: 400px;
     width: 100%;
-    background-color: rgb(255, 252, 252);
-}
+    background-color: rgb(255, 252, 252); 
+    } */
 
 .slider{
     overflow: hidden;
@@ -180,10 +181,18 @@ a {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    body{
-        min-height: 100vh;
-        overflow: hidden;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
+
+    .total_container{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #8b5e5e;
+    }
+
     .brother_tiles_logo {
         display: none;
     }
@@ -193,7 +202,7 @@ a {
         position: absolute;
         top: 0px;
         margin-left: 6px;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -208,11 +217,11 @@ a {
     }
 
     .title_section {
-        min-height: 500px;
+        min-height: 550px;
     }
 
     .about_section {
-        min-height: 200px;
+        min-height: 300px;
         min-width: 100vw;
         /* padding: 20px; */
         left: 2px;
